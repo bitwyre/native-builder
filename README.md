@@ -4,9 +4,29 @@ This image would normally be used for multi-stage `docker` build (as `builder`)
 
 ## Builder Versions
 
-- GCC/G++ 9.2.1 (Stable)
-- Clang 10.0.0 (Stable)
-- Rust 1.42.0 (Stable)
+`gcc/g++`
+
+```text
+gcc (Ubuntu 9.3.0-10ubuntu2) 9.3.0
+Copyright (C) 2019 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+```
+
+`clang`
+
+```text
+clang version 10.0.0-4ubuntu1
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+```
+
+`rustc`
+
+```text
+rustc 1.43.0 (4fb7144ed 2020-04-20)
+```
 
 ## Author
 
